@@ -8,4 +8,12 @@ main {
   justify-content: center;
   align-content: center;
   background-color: rgb(192, 230, 230);
+  .win-screen {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 700px;
+    text-align: center;
+    height: 47vh;
+    font-size: 10rem;
+  }
 }

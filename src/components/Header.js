@@ -5,7 +5,10 @@ const Header = (props) => {
     <header>
       <img className="aot-logo" src={logo} alt="aot-logo" />
       <p>MEMORY GAME</p>
-      <span>SCORE:{props.scoreDisplay}</span>
+      <p id="best-score">
+        BEST SCORE:<span>{props.bestScoreDisplay}</span>
+      </p>
+      <p id="score">SCORE:{props.scoreDisplay}</p>
     </header>
   );
 };

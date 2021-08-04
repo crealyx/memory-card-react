@@ -11,10 +11,39 @@ header {
     font-size: 3rem;
     color: aliceblue;
   }
-  span {
+  #best-score {
+    color: rgb(255, 0, 0);
+    font-size: 4rem;
+    margin-left: 200px;
+    span {
+      color: white;
+    }
+  }
+
+  #score {
     color: rgb(255, 255, 255);
     font-size: 4rem;
-    margin-left: 250px;
+    margin-left: 200px;
   }
   border-bottom: 4px solid rgb(0, 204, 255);
+}
+@media (max-width: 1800px) {
+  header {
+    #score {
+      margin-left: 100px;
+    }
+  }
+}
+@media (max-width: 1500px) {
+  header {
+    flex-direction: column;
+    gap: 0;
+    p {
+      font-size: 2rem;
+    }
+    #score {
+      margin-left: 0;
+      font-size: 3rem;
+    }
+  }
 }

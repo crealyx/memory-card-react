@@ -12,16 +12,23 @@ function shuffleArray(arr) {
   return arr;
 }
 
+let isWon = false;
 const Main = (mainProps) => {
   const [selectedChars, setSelectedChars] = useState([]);
   const clickHandler = (cardProps) => {
     if (selectedChars.includes(cardProps.name)) {
-      mainProps.score(0);
+      mainProps.setBestScore(mainProps.score);
+      mainProps.setScore(0);
       setSelectedChars([]);
     } else {
-      mainProps.score((prevScore) => prevScore + 1);
+      mainProps.setScore((prevScore) => prevScore + 1);
       setSelectedChars((prev) => [...prev, cardProps.name]);
+      if (mainProps.score === 7) {
+        isWon = true;
+      }
     }
+    console.log(mainProps.score);
+    console.log(isWon);
   };
 
   const shuffledCharactersArray = shuffleArray(charactersArray);
@@ -35,7 +42,15 @@ const Main = (mainProps) => {
       onClick={clickHandler}
     ></Card>
   ));
-  return <main>{characterDisplayArray}</main>;
+  return (
+    <main>
+      {isWon ? (
+        <div className="win-screen">YOU WIN</div>
+      ) : (
+        characterDisplayArray
+      )}
+    </main>
+  );
 };
 
 export default Main;
