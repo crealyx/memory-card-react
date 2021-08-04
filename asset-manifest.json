@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/memory-card-react/static/css/main.d6ba14f2.chunk.css",
-    "main.js": "/memory-card-react/static/js/main.72f5273e.chunk.js",
-    "main.js.map": "/memory-card-react/static/js/main.72f5273e.chunk.js.map",
+    "main.css": "/memory-card-react/static/css/main.b3ab85f4.chunk.css",
+    "main.js": "/memory-card-react/static/js/main.a5f6ef37.chunk.js",
+    "main.js.map": "/memory-card-react/static/js/main.a5f6ef37.chunk.js.map",
     "runtime-main.js": "/memory-card-react/static/js/runtime-main.f2c5ea81.js",
     "runtime-main.js.map": "/memory-card-react/static/js/runtime-main.f2c5ea81.js.map",
-    "static/js/2.4735993c.chunk.js": "/memory-card-react/static/js/2.4735993c.chunk.js",
-    "static/js/2.4735993c.chunk.js.map": "/memory-card-react/static/js/2.4735993c.chunk.js.map",
+    "static/js/2.9fe1d2f7.chunk.js": "/memory-card-react/static/js/2.9fe1d2f7.chunk.js",
+    "static/js/2.9fe1d2f7.chunk.js.map": "/memory-card-react/static/js/2.9fe1d2f7.chunk.js.map",
     "index.html": "/memory-card-react/index.html",
-    "static/css/main.d6ba14f2.chunk.css.map": "/memory-card-react/static/css/main.d6ba14f2.chunk.css.map",
-    "static/js/2.4735993c.chunk.js.LICENSE.txt": "/memory-card-react/static/js/2.4735993c.chunk.js.LICENSE.txt",
+    "static/css/main.b3ab85f4.chunk.css.map": "/memory-card-react/static/css/main.b3ab85f4.chunk.css.map",
+    "static/js/2.9fe1d2f7.chunk.js.LICENSE.txt": "/memory-card-react/static/js/2.9fe1d2f7.chunk.js.LICENSE.txt",
     "static/media/logo.b912c742.png": "/memory-card-react/static/media/logo.b912c742.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f2c5ea81.js",
-    "static/js/2.4735993c.chunk.js",
-    "static/css/main.d6ba14f2.chunk.css",
-    "static/js/main.72f5273e.chunk.js"
+    "static/js/2.9fe1d2f7.chunk.js",
+    "static/css/main.b3ab85f4.chunk.css",
+    "static/js/main.a5f6ef37.chunk.js"
   ]
 }
